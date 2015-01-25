@@ -1,0 +1,11 @@
+[program:api]
+command=/home/<%= @user %>/.pyenv/shims/python <%= @app_install_dir %>/app.py --port=80%(process_num)02d
+user=<%= @user %>
+numprocs=4
+process_name=%(program_name)s_%(process_num)02d
+autostart=true
+autorestart=true
+directory=<%= @app_install_dir %>
+stderr_logfile=/var/log/%(program_name)s-%(process_num)02d.err
+stdout_logfile=/var/log/%(program_name)s.out
+environment=PYTHONPATH="<%= @app_install_dir %>",DEPLOYMENT_TYPE="<%= @deployment_type %>",PATH="<%= @path_var %>"
