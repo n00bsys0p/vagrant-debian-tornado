@@ -8,9 +8,10 @@ web applications. It should support any platform which supports VirtualBox and
 Vagrant.
 
 ## Requirements
-* VirtualBox (built on 4.3.12)
-* Vagrant (built on 1.7.2)
-* vagrant-hostmanager (optional, but useful)
+* [VirtualBox](https://www.virtualbox.org/) (built on 4.3.12)
+* [https://www.vagrantup.com/](Vagrant) (built on 1.7.2)
+* [vagrant-hostmanager](https://github.com/smdahlen/vagrant-hostmanager)
+(optional, but useful)
 
 ## Installation
 Clone this repository to your local machine, navigate to the folder in your
@@ -25,8 +26,9 @@ to use your own, you can skip these steps and clone your own project into the
 3. `vagrant up`
 
 That's literally all! The last command will take some time, as it has to fetch
-the base box from [HashiCorp Atlas](https://atlas.hashicorp.com/) (used to be
-Vagrantcloud), then install it and provision the base system.
+[the base box](https://atlas.hashicorp.com/n00bsys0p/boxes/debian64-puppet)
+from [HashiCorp Atlas](https://atlas.hashicorp.com/) (used to be Vagrantcloud),
+then install it and provision the base system.
 
 Once you've got this running, you can tell it to automatically update your
 hosts file, so we can get to it via an easily memorable URL. Type
