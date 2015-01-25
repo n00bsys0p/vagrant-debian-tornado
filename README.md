@@ -37,8 +37,8 @@ you if you have the
 [vagrant-hostmanager plugin](https://github.com/smdahlen/vagrant-hostmanager)
 installed.
 
-Now you can access the VM in a web browser at http://tornado.local/. It should
-look like the image below:
+Now you can access the default application on the VM in a web browser at
+http://tornado.local/foo (FooHandler). It should look like the image below:
 
 ![google chrome with working application](https://raw.githubusercontent.com/n00bsys0p/vagrant-debian-tornado/gh-pages/chrome.png)
 
