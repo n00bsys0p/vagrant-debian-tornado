@@ -1,4 +1,4 @@
-[program:api]
+[program:app]
 command=/home/<%= @user %>/.pyenv/shims/python <%= @app_install_dir %>/app.py --port=80%(process_num)02d
 user=<%= @user %>
 numprocs=4
