@@ -9,7 +9,7 @@ Vagrant.
 
 ## Requirements
 * [VirtualBox](https://www.virtualbox.org/) (built on 4.3.12)
-* [https://www.vagrantup.com/](Vagrant) (built on 1.7.2)
+* [Vagrant](https://www.vagrantup.com/) (built on 1.7.2)
 * [vagrant-hostmanager](https://github.com/smdahlen/vagrant-hostmanager)
 (optional, but useful)
 
